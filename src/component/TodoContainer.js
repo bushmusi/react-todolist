@@ -6,23 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 class TodoContainer extends React.Component {
     state = {
-        todos: [
-            {
-                id: uuidv4(),
-                title: "Setup dev enviroment",
-                completed: true
-            },
-            {
-                id: uuidv4(),
-                title: "buidl data",
-                completed: true
-            },
-            {
-                id: uuidv4(),
-                title: "Task 3",
-                completed: false
-            }
-        ]
+        todos: []
     }
 
     handleChange = (id) => {
@@ -70,6 +54,12 @@ class TodoContainer extends React.Component {
                 return item
             })
         })
+    }
+
+    componentDidMount() {
+        fetch("https://jsonplaceholder.typicode.com/todos?_limit=10")
+            .then(response => response.json())
+            .then(data => this.setState({todos: data}))
     }
 
     render() {
