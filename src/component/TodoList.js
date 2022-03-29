@@ -12,6 +12,7 @@ class TodoList extends React.Component {
                             key={val.id}
                             handleChangeProps={this.props.handleChangeProps}
                             delTodoProps = {this.props.delTodoProps}
+                            setUpdate={this.props.setUpdate}
                         />
                     ))
                 }
