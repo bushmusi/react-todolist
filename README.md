@@ -1,59 +1,38 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Todo List React App
 
-# Project Name
+### I have build this project to recap react library archtecture. I have used both Functional and Class components. I deployed my project to `github pages` and I have used basename to stable routing
+### This project is build using React framework and I have used `stylelint` and `eslinte` for checking linter errors.
+> Below features are added here
+- Basic mathematical operation
+- **CSS3** `grid` features have used for input displays
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+## Live Demo
+> [Watch Live](https://bushmusi.github.io/react-todolist/)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
+- React.Js
+- CSS3
+- React Icons component
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+1. `git clone https://github.com/bushmusi/math-magicians`
+2. `cd math-magicians`
+3. `npm start`
 
 
+## Deployment
 
-## Authors
+- Use GitHub pages to deploy website
+- For more information about publishing sources, see [About github pages](https://pages.github.com/)
 
-👤 **Author1**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Bushra**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: 
+    - [Bushra](www.github.com/bushmusi)
 
 ## 🤝 Contributing
 
@@ -67,9 +46,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- (React Tutorial for beggineers)[https://ibaslogic.com/]
+- Microverse 
+- Coding Partners
+- Code Reviewers
 
 ## 📝 License
 
