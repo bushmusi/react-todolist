@@ -1,7 +1,8 @@
 # Todo List React App
 
-### I have build this project to recap react library archtecture. I have used both Functional and Class components. I deployed my project to `github pages` and I have used basename to stable routing
-### This project is build using React framework and I have used `stylelint` and `eslinte` for checking linter errors.
+- I have build this project to recap react library archtecture. I have used both Functional and Class components. I deployed my project to `github pages` and I have used basename to stable routing
+
+- This project is build using React framework and I have used `stylelint` and `eslinte` for checking linter errors.
 > Below features are added here
 - Basic mathematical operation
 - **CSS3** `grid` features have used for input displays
@@ -46,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- (React Tutorial for beggineers)[https://ibaslogic.com/]
+- [React Tutorial for beggineers](https://ibaslogic.com/)
 - Microverse 
 - Coding Partners
 - Code Reviewers
