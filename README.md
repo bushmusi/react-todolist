@@ -7,7 +7,7 @@
 - **CSS3** `grid` features have used for input displays
 
 ## Live Demo
-> [Watch Live](https://bushmusi.github.io/math-magicians/)
+> [Watch Live](https://bushmusi.github.io/react-todolist/)
 
 ## Built With
 
