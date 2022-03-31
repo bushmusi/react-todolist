@@ -1,22 +1,27 @@
-import React from "react";
-import TodoItem from "./TodoItem";
+import React from 'react';
+import PropTypes from 'prop-types';
+import TodoItem from './TodoItem';
 
-const TodoList = props =>{
-    return (
-        <ul>
-            {
-                props.todos.map( val => (
-                    <TodoItem 
-                        item={val} 
-                        key={val.id}
-                        handleChangeProps={props.handleChangeProps}
-                        delTodoProps = {props.delTodoProps}
-                        setUpdate={props.setUpdate}
-                    />
+const TodoList = (props) => (
+  <ul>
+    {
+                props.todos.map((val) => ( //eslint-disable-line
+                  <TodoItem
+                    item={val}
+                    key={val.id}
+                    handleChangeProps={props.handleChangeProps} //eslint-disable-line
+                    delTodoProps={props.delTodoProps} //eslint-disable-line
+                    setUpdate={props.setUpdate} //eslint-disable-line
+                  />
                 ))
             }
-        </ul>
-    );
-}
+  </ul>
+);
+TodoList.propTypes = {
+  todos: PropTypes.array.isRequired,//eslint-disable-line
+  handleChangeProps: PropTypes.func.isRequired,
+  delTodoProps: PropTypes.func.isRequired,
+  setUpdate: PropTypes.func.isRequired,
 
+};
 export default TodoList;
