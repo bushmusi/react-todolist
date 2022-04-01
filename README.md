@@ -10,6 +10,7 @@
 ## Live Demo
 > [Watch Live](https://bushmusi.github.io/react-todolist/)
 
+![screenshot](./app_screenshot.PNG)
 ## Built With
 
 - React.Js
